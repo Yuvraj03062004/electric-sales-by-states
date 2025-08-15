@@ -77,7 +77,7 @@ with col4:
     sales_trend = df_filtered.groupby("Year")["EV_Sales"].sum().reset_index()
     fig_trend = px.line(sales_trend, x="Year", y="EV_Sales", 
                         title="📈 Sales Trend Over Years", markers=True, 
-                        template="plotly_dark", color_discrete_sequence=["#29B6F6"])
+                        template="plotly_dark", color_discrete_sequence=["#BBDEFB"])
     st.plotly_chart(fig_trend, use_container_width=True)
 
 with col5:
@@ -90,6 +90,7 @@ with col5:
 # --- FOOTER ---
 st.markdown("---")
 st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
