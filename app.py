@@ -44,6 +44,7 @@ def load_data():
 df = load_data()
 
 # --- SIDEBAR FILTERS ---
+st.sidebar.multiselect()
 st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/2/2d/Electric_car_icon.png", width=100)
 st.sidebar.header("🔍 Filters")
 
@@ -90,6 +91,7 @@ with col5:
 # --- FOOTER ---
 st.markdown("---")
 st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
