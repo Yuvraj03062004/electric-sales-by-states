@@ -18,7 +18,7 @@ st.markdown("""
     }
     /* KPI Card Styling */
     [data-testid="stMetric"] {
-        background-color:"#FFF9C4";
+        background-color:"#FFB74D";
         border-radius: 12px;
         padding: 15px;
         text-align: center;
@@ -77,7 +77,7 @@ with col4:
     sales_trend = df_filtered.groupby("Year")["EV_Sales"].sum().reset_index()
     fig_trend = px.line(sales_trend, x="Year", y="EV_Sales", 
                         title="📈 Sales Trend Over Years", markers=True, 
-                        template="plotly_dark", color_discrete_sequence=["#FFB74D"])
+                        template="plotly_dark", color_discrete_sequence=[#E6E6FA])
     st.plotly_chart(fig_trend, use_container_width=True)
 
 with col5:
