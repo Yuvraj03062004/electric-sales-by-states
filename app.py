@@ -25,8 +25,8 @@ years = st.sidebar.multiselect("Select Years", options=df["Year"].unique(), defa
 df_filtered = df[(df["State"].isin(states)) & (df["Year"].isin(years))]
 
 # KPIs
-total_sales = df_filtered["Sales"].sum()
-top_state = df_filtered.groupby("State")["Sales"].sum().idxmax()
+total_sales = df_filtered["EV_Sales"].sum()
+top_state = df_filtered.groupby("State")["EV_Sales"].sum().idxmax()
 st.metric("Total EV Sales", f"{total_sales:,}")
 st.metric("Top State", top_state)
 
@@ -40,7 +40,7 @@ fig_map = px.choropleth(df_filtered,
 st.plotly_chart(fig_map, use_container_width=True)
 
 # Bar Chart
-fig_bar = px.bar(df_filtered.groupby("State")["Sales"].sum().reset_index(),
+fig_bar = px.bar(df_filtered.groupby("State")["EV_Sales"].sum().reset_index(),
                  x="State", y="Sales", title="EV Sales by State")
 st.plotly_chart(fig_bar, use_container_width=True)
 
@@ -51,3 +51,4 @@ st.plotly_chart(fig_line, use_container_width=True)
 
 # Show Data
 st.dataframe(df_filtered)
+
