@@ -41,14 +41,15 @@ st.plotly_chart(fig_map, use_container_width=True)
 
 # Bar Chart
 fig_bar = px.bar(df_filtered.groupby("State")["EV_Sales"].sum().reset_index(),
-                 x="State", y="Sales", title="EV Sales by State")
+                 x="State", y="EV_Sales", title="EV Sales by State")
 st.plotly_chart(fig_bar, use_container_width=True)
 
 # Line Chart (Trend)
-fig_line = px.line(df_filtered.groupby("Year")["Sales"].sum().reset_index(),
-                   x="Year", y="Sales", title="EV Sales Over Time")
+fig_line = px.line(df_filtered.groupby("Year")["EV_Sales"].sum().reset_index(),
+                   x="Year", y="EV_Sales", title="EV Sales Over Time")
 st.plotly_chart(fig_line, use_container_width=True)
 
 # Show Data
 st.dataframe(df_filtered)
+
 
