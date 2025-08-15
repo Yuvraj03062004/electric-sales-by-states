@@ -38,7 +38,7 @@ st.markdown('<div class="main-title">⚡ Electric Vehicle Sales Dashboard</div>'
 # --- LOAD DATA ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("electric_sales.csv")  # Apna CSV name yahan confirm karo
+    df = pd.read_csv("electric_sales.csv")  # make sure your csv file name same as it in github file folder 
     return df
 
 df = load_data()
@@ -90,6 +90,7 @@ with col5:
 # --- FOOTER ---
 st.markdown("---")
 st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
