@@ -16,14 +16,13 @@ It helps users explore trends over the years, compare states, and gain insights 
 - **Interactive Charts** – Includes bar charts, line charts, and a state-wise map visualization.
 - **Attractive UI** – Professionally designed with a clean and modern look.
 
- ## **🛠️Technologies Used**
- 
-**-Programming Language:	Python 3.13
--Data Processing:	Pandas
--Data Visualization:	Plotly (interactive charts & maps)
--Web App Framework: Streamlit
--Version Control: Git & GitHub
--Deployment: Streamlit Cloud**
+   🛠Technologies Used
+-Programming Language	Python 3.13
+-Data Processing	Pandas
+-Data Visualization	Plotly Express (interactive graphs & maps)
+-Web App Framework	Streamlit
+-Version Control	Git & GitHub
+-Deployment	Streamlit Cloud
 
 ## 📂 Dataset
 The dataset contains state-wise EV sales data with the following columns:
