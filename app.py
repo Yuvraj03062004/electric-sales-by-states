@@ -18,7 +18,7 @@ st.markdown("""
     }
     /* KPI Card Styling */
     [data-testid="stMetric"] {
-        background-color:#FFFFF0;;
+        background-color:#FF9800;;
         border-radius: 12px;
         padding: 15px;
         text-align: center;
@@ -90,6 +90,7 @@ with col5:
 # --- FOOTER ---
 st.markdown("---")
 st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
