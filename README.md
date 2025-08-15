@@ -5,9 +5,9 @@ This dashboard provides an interactive analysis of Electric Vehicle (EV) sales a
 It helps users explore trends over the years, compare states, and gain insights into the EV market growth.
 
 ## 🎯 Objective
-The objective of this project is to analyze and visualize the adoption of Electric Vehicles (EVs) across Indian states using an interactive and insightful dashboard.
-It is designed to help decision-makers, businesses, and analysts quickly identify market trends, growth opportunities, and high-performing regions in the EV sector
-By converting raw datasets into actionable insights, this project bridges the gap between complex data and clear decision-making.
+1.The objective of this project is to analyze and visualize the adoption of Electric Vehicles (EVs) across Indian states using an interactive and insightful dashboard.
+2.It is designed to help decision-makers, businesses, and analysts quickly identify market trends, growth opportunities, and high-performing regions in the EV sector
+3.By converting raw datasets into actionable insights, this project bridges the gap between complex data and clear decision-making.
 
 ## 📊 Features
 - **Year & State Filters** – Select specific years or states to customize the view.
@@ -17,6 +17,7 @@ By converting raw datasets into actionable insights, this project bridges the ga
 - **Attractive UI** – Professionally designed with a clean and modern look.
 
  ## **🛠️Technologies Used**
+ 
 **-Programming Language:	Python 3.13
 -Data Processing:	Pandas
 -Data Visualization:	Plotly (interactive charts & maps)
