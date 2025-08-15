@@ -89,7 +89,8 @@ with col5:
 
 # --- FOOTER ---
 st.markdown("---")
-st.caption("📊 Electric Vehicle Sales Dashboard | Created by [Your Name] | Powered by Streamlit")
+st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
