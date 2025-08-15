@@ -5,24 +5,20 @@ This dashboard provides an interactive analysis of Electric Vehicle (EV) sales a
 It helps users explore trends over the years, compare states, and gain insights into the EV market growth.
 
 ## 🎯 Objective
-1.The objective of this project is to analyze and visualize the adoption of Electric Vehicles (EVs) across Indian states using an interactive and insightful dashboard.
-2.It is designed to help decision-makers, businesses, and analysts quickly identify market trends, growth opportunities, and high-performing regions in the EV sector
-3.By converting raw datasets into actionable insights, this project bridges the gap between complex data and clear decision-making.
+The main goal of this project is to visualize EV sales data in a simple yet informative way, making it easy to understand market trends and identify top-performing states.
 
-## 📊 Features
 - **Year & State Filters** – Select specific years or states to customize the view.
 - **Total Sales Indicator** – Displays the overall EV sales count.
 - **Top State Highlight** – Automatically shows the state with the highest sales.
 - **Interactive Charts** – Includes bar charts, line charts, and a state-wise map visualization.
 - **Attractive UI** – Professionally designed with a clean and modern look.
-
-   🛠Technologies Used
--Programming Language	Python 3.13
--Data Processing	Pandas
--Data Visualization	Plotly Express (interactive graphs & maps)
--Web App Framework	Streamlit
--Version Control	Git & GitHub
--Deployment	Streamlit Cloud
+**🛠️ Tech Stack
+Python
+Streamlit (for building the interactive dashboard)
+Pandas (for data processing)
+Plotly (for data visualization)
+GitHub (for version control & deployment)
+Streamlit Cloud (for hosting)**
 
 ## 📂 Dataset
 The dataset contains state-wise EV sales data with the following columns:
