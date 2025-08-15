@@ -31,7 +31,7 @@ The dataset contains state-wise EV sales data with the following columns:
 - **Vehicle Category**
 - **Vehicle Type**
 - **EV Sales**
-
+- 
 ## 🚀 Live Demo
 🔗 **View Dashboard:** https://electric-sales-by-states-l92cyftpyqztbkjrhn4ku3.streamlit.app)
 
