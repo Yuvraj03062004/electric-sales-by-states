@@ -26,7 +26,7 @@ st.markdown("""
         transition: 0.3s;
     }
     [data-testid="stMetric"]:hover {
-        background-color: #BBDEFB;
+        background-color: #E6E6FA ;
         transform: scale(1.02);
     }
     </style>
@@ -90,6 +90,7 @@ with col5:
 # --- FOOTER ---
 st.markdown("---")
 st.caption("📊 Electric Vehicle Sales Dashboard | Created by [YUVRAJ TIWARI] | Powered by Streamlit")
+
 
 
 
